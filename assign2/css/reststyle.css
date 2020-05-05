@@ -1,0 +1,125 @@
+*{
+	box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  color: black;
+  background-color: #fff;
+  font-family: 'Oxygen', sans-serif;
+}
+#header-nav {
+  background-color: #808080;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { 
+  font-family: 'Lora', serif;
+  color: #000;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #808080;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+#head1,#head2,#head3{
+	text-align: center;
+}
+p{
+	margin:10px;
+}
+.inside{
+	position :relative;
+	background-color :	#808080;
+	border:3px solid black;
+	margin:10px;
+}
+.row {
+  width: 100%;
+}
+/* Medium Device*/
+@media (min-width: 992px) {
+  	.col-md-12{
+  		position:relative;
+  		float: left;
+    	width:100%;
+    	padding-bottom:20px;
+  	}
+  	#nav-list {
+  		margin-top: 10px;
+  		display: none;
+  	}
+  	#nav-list a {
+  		color: #000;
+  		text-align: center;
+  	}
+  	#nav-list a:hover {
+  		background: #000;
+  	}
+  	#nav-list a span {
+  		font-size: 1.8em;
+  	}
+}
+
+/* Small devices only */
+@media (min-width: 768px) and (max-width: 991px) {
+  	.col-sm-12 {
+  		position:relative;
+    	float: left;
+    	width: 100%;
+   		padding-bottom: 20px;
+  	}
+  	#nav-list {
+  		margin-top: 10px;
+  		display: none;
+  	}
+  	#nav-list a {
+  		color: #000;
+  		text-align: center;
+  	}
+  	#nav-list a:hover {
+  		background: #000;
+  	}
+  	#nav-list a span {
+  		font-size: 1.8em;
+  	}
+}
+/* Extra Small screens */
+@media(max-width:767px){
+	.col-xs-12{
+		position:relative;
+		float: left;
+		width:100%;
+	}
+	#nav-list {
+  		margin-top: 0px;
+  	}
+  	#nav-list a {
+  		color: #000;
+  		text-align: center;
+  		background-color: #fff;
+  		padding-bottom: 0px;
+  		padding-top: 0px
+   	}
+  	#nav-list a:hover {
+  		background: #000;
+  	}
+  	#nav-list a span {
+  		font-size: 1.8em;
+  }
+}
